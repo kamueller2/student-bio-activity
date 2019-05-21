@@ -9,9 +9,45 @@
 </head>
 
 <style>
-    img {
-        height: 300px;
-        width: 300px;
+    body {
+        background-color: #efeee7;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+    
+    h1 {
+        background-color: #333333;
+        color: #efeee7;
+        text-align: center;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    
+    #main-bio,
+    #contact,
+    #bio-img {
+        float: left;
+    }
+    
+    #main-bio {
+        width: 70%;
+    }
+    
+    #contact {
+        width: 30%;
+    }
+    
+    #bio-img {
+        margin-right: 20px;
+        height: 200px;
+        width: 200px;
     }
 </style>
 
@@ -21,20 +57,19 @@
         <h1>Student Bio</h1>
     </header>
 
-    <div>
-
-        <section>
+    <div class="container">
+        <section id="main-bio">
             <h2>Kimberly Mueller</h2>
-            <img src="./images/IMG_1841.JPG" alt="picture of kam">
+            <img id="bio-image" src="./assets/IMG_1841.JPG" alt="picture of kam">
 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem recusandae unde, ex nesciunt at rem quisquam, dolore cum, excepturi quo quia soluta laborum ea facere tempore corporis. Vitae, maiores.
             </p>
         </section>
 
-        <section>
+        <section id="contact">
 
-            <h2>Contact Info</h2>
+            <h2 class="contact">Contact Info</h2>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:kamueller2@gmail.com">kamueller2@gmail</a> </li>
                 <li><strong>GitHub: </strong><a href="https://github.com/kamueller2">kamueller2</a> </li>
@@ -42,7 +77,15 @@
             </ul>
 
         </section>
+
+
     </div>
+
+
+
+
+
+
 
 </body>
 
