@@ -13,7 +13,9 @@
         background-color: #efeee7;
         margin: 0;
         padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
+        line-height: 150%;
     }
     
     h1 {
@@ -23,6 +25,15 @@
         margin: 0;
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    a {
+        color: #d21034
     }
     
     .container {
@@ -31,7 +42,7 @@
     }
     
     #main-bio,
-    #contact,
+    #contact-info,
     #bio-img {
         float: left;
     }
@@ -40,7 +51,7 @@
         width: 70%;
     }
     
-    #contact {
+    #contact-info {
         width: 30%;
     }
     
@@ -59,21 +70,23 @@
 
     <div class="container">
         <section id="main-bio">
-            <h2>Kimberly Mueller</h2>
-            <img id="bio-image" src="./assets/IMG_1841.JPG" alt="picture of kam">
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem recusandae unde, ex nesciunt at rem quisquam, dolore cum, excepturi quo quia soluta laborum ea facere tempore corporis. Vitae, maiores.
-            </p>
+            <h2>Kimberly Mueller</h2>
+
+            <img src="./assets/IMG_1841.JPG" alt="picture of kam" id="bio-img">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati exercitationem recusandae unde, ex nesciunt at rem quisquam, dolore cum, excepturi quo quia soluta laborum ea facere tempore corporis. Vitae, maiores.</p>
+
         </section>
 
-        <section id="contact">
+        <section id="contact-info">
 
-            <h2 class="contact">Contact Info</h2>
+            <h2>Contact Info</h2>
             <ul>
-                <li><strong>Email:</strong> <a href="mailto:kamueller2@gmail.com">kamueller2@gmail</a> </li>
+                <li><strong>Email:</strong> <a href="mailto:kamueller2@gmail.com">kamueller2@gmail.com</a> </li>
                 <li><strong>GitHub: </strong><a href="https://github.com/kamueller2">kamueller2</a> </li>
-                <li><strong>Portfolio: </strong>Coming Soon</li>
+                <li><strong>Portfolio:</strong>
+                    <a href="#">coming soon</a></li>
             </ul>
 
         </section>
